@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.cuerpo{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#FEFEFE, lightcyan);
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;    
+}
+
+
+.contenedor{
+    margin: auto;
+    width: 850px;
+    height: 650px;
+    padding: 5px;        
+}
+
+header{
+    background: url(Imagenes/lightcyan.jpg);
+    width: 100%;
+    float: left;  
+    margin-bottom: 1em;
+}
+
+
+.logo{
+
+    margin-top: 1em;
+    margin-left: 5%;
+    float: inherit;    
+}
+
+.encabezado h1{ 
+
+    float: inherit;
+    margin-right: 10%;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 15px #0f30a9;
+}
+
+.area-principal{
+
+    float: left;
+    width: 69%;
+    height: 60%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);   
+    background: #F3F5FC;
+}
+
+.encriptartexto{
+
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    color: #0A3871;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+}
+
+.area-encriptada{
+
+    float:right;
+    width: 30%;
+    height: 74%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: lightcyan;
+    margin: 0, 3px;
+    margin-bottom: 1em;
+}
+
+#encriptado{
+
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 35%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    background: lightcyan;
+}
+
+.botones{
+
+    float: left;
+    width: 69%;
+    height: 13.5%;
+    background-color: #F3F5FC;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px; 
+    margin-top: 2px;
+}
+
+#munieco{
+margin-left: 2%;
+margin-top: 5%;
+width: 90%;
+height: auto;
+}
+
+#texto{
+    text-align: center;
+
+}
+
+#btn-encriptar{
+
+    padding: 2px;
+    width: 200px;
+    height: 40px;
+    border-radius: 24px;
+    border: none;
+    margin-left: 10%;
+    margin-top: 1em;
+    background: rgb(10, 163, 234);
+    color: black;
+    font-size: 24px;
+    background-image: url("Imagenes/desencriptar.png");
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position-x: -49px;
+    background-position-y: -23px;
+}
+
+#btn-encriptar:hover{
+    background-image: url("Imagenes/encriptar.png");
+    background-repeat: no-repeat;
+}
+
+#btn-desencriptar{
+    padding: 2px 0 0 1em;
+    width: 200px;
+    height: 40px;
+    border-radius: 24px;
+    border: none;
+    margin-left: 10%;
+    margin-top: 1em;
+    background: rgb(10, 163, 234);
+    font-size: 22px;
+    text-align: center;
+    background-image: url("Imagenes/encriptar.png");
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position-x: -55px;
+    background-position-y: -22px;
+}
+
+#btn-desencriptar:hover{
+    background-image: url("Imagenes/desencriptar.png");
+    background-repeat: no-repeat;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+button:active{
+    transform: translateY(3px);
+}
+
+#copiar{
+
+    display: none;
+    margin-left: 11%;
+    margin-top: 17em;
+    padding: 2px;
+    width: 200px;
+    height: 40px;
+    background: rgb(10, 163, 234);
+    border-radius: 24px;
+    font-size: 24px;    
+}
+
+footer{
+
+    background: url(Imagenes/lightcyan.jpg);
+    width: 100%;
+    float: left;  
+    margin-bottom: 5.7em;
+}
+
+.copyright{
+
+    float: inherit;
+    margin-right: 10%;
+    margin-top: 3%;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 15px #0f30a9;
+    font-size: 13px;
+}
+
+.footer-by{
+
+    text-align: center;
+}
+
+@media screen and (max-width:480px){
+
+    .contenedor{
+
+        width: auto;
+    }
+
+    .logo{
+
+        padding: 0;
+    }
+
+    #btn-encriptar{
+
+        margin-top: 0;
+    }
+
+    #btn-desencriptar{
+        
+        margin-top: 0;
+    }
+}    

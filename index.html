@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="index.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body class="cuerpo">
+        <header>
+            <div class="encabezado">
+                <h1>Encriptador</h1>
+            </div>    
+        </header>
+
+        <main>
+            <section class="contenedor">
+                <div class="area-principal">
+                    <img class="logo" src="Imagenes/Vector.png">
+                    <textarea class="encriptartexto" id="encriptar" type="text" autofocus placeholder="Introduzca el texto aqui.." autofocus></textarea>
+                </div>
+
+                <div class="area-encriptada">
+                    <textarea id="encriptado" cols="8" rows="50" placeholder="Ingrese el texto que desea encriptar o desencriptar"></textarea>
+                    <img src="Imagenes/Muñeco.png" id="munieco">
+                    <button id="copiar" type="button" name="copiar" onclick="copiartexto()">Copiar</button>
+                </div>
+                
+                <div class="botones">
+                    <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-by">
+                <p class="copyright">by Martin Lemberger</p>
+            </div>
+            <div>
+                <p class="copyright">&copy; Copyright Alura Latam - ONE ORACLE - 2022</p>
+            </div>    
+        </footer>
+    </body>
+</html>
