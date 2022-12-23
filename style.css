@@ -188,6 +188,7 @@ button:active{
     height: 40px;
     background: rgb(10, 163, 234);
     border-radius: 24px;
+    border: none;
     font-size: 24px;    
 }
 
@@ -230,10 +231,17 @@ footer{
     #btn-encriptar{
 
         margin-top: 0;
+        margin-bottom: 5px;
     }
 
     #btn-desencriptar{
         
         margin-top: 0;
+    }
+
+    #copiar{
+
+        width: 100px;
+        margin-left: 5%;
     }
 }    
