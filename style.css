@@ -139,11 +139,14 @@ height: auto;
     background-size: 170px;
     background-position-x: -49px;
     background-position-y: -23px;
+    transition: 150ms;
 }
 
 #btn-encriptar:hover{
     background-image: url("Imagenes/encriptar.png");
     background-repeat: no-repeat;
+    background-color: rgb(29, 118, 159);
+    box-shadow: 0 0 4px blue;
 }
 
 #btn-desencriptar{
@@ -162,20 +165,23 @@ height: auto;
     background-size: 170px;
     background-position-x: -55px;
     background-position-y: -22px;
+    transition: 150ms;
 }
 
 #btn-desencriptar:hover{
     background-image: url("Imagenes/desencriptar.png");
     background-repeat: no-repeat;
+    background-color: rgb(29, 118, 159);
+    box-shadow: 0 0 4px blue;
 }
 
 button:hover {
     cursor: pointer;
-    transform: translateY(-3px);
+    transform: translateY(-1px);
 }
 
 button:active{
-    transform: translateY(3px);
+    transform: translateY(1px);
 }
 
 #copiar{
@@ -190,6 +196,12 @@ button:active{
     border-radius: 24px;
     border: none;
     font-size: 24px;    
+}
+
+#copiar:hover{
+
+    background-color: rgb(29, 118, 159);
+    box-shadow: 0 0 4px blue;
 }
 
 footer{
